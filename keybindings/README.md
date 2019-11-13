@@ -11,6 +11,10 @@ Some useful tools and commands:
 - `dconf-editor`: directly edit dconf settting file (`org/gnome/desktop/input-sources/xkb-options`) instead of using GNOME Tweak Tool.
 - `dconf watch /`: see which dconf setting is changed.
 
+## Capslock as Shift
+
+Put [capslock](./capslock) in `/usr/share/X11/xkb/symbols` and check "Make Caps Lock an additional Menu key" in "GNOME Tweak Tool > Keyboard & Mouse > Additional Layout Options > Caps Lock behavior".
+
 ## System Settings
 
 Change shortcuts to whatever you like.
